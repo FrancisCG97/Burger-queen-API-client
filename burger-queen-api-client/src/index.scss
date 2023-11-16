@@ -1,0 +1,33 @@
+// Abstracts
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+
+// Base
+@use './scss/base/base';
+@use './scss/base/resets';
+
+
+// -----------------HEADER-----------------
+// -----------------TITLE-----------------
+#burger {
+    width: 13%;
+    height: auto;
+}
+
+#header-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+}
+
+
+#date {
+    display: flex;
+    flex-direction: column;
+}
+
