@@ -1,5 +1,6 @@
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import burgerCrown from '../assets/Images/b-crown.png'
 
 function Footer() {
 
@@ -10,7 +11,7 @@ function Footer() {
         <div className="col-2 col-sm-8 col-md-6 col-lg-12 col-xl-12">
           <div className="container-fluid">
             <p id="footer" className="navbar">
-              {/* <img id="logo-footer" src={burgerCrown} alt="Logo" className="align-text-top"></img> */}
+              <img id="logo-footer" src={burgerCrown} alt="Logo" className="align-text-top"></img>
               Burger Queen
             </p>
           </div>

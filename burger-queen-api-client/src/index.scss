@@ -25,9 +25,43 @@
     align-items: center;
 }
 
-
 #date {
     display: flex;
     flex-direction: column;
+}
+
+
+// -----------------USER-----------------
+// -----------------TITLE----------------
+#text {
+    display: flex;
+    justify-content: center;
+}
+
+#login-inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#user-btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+// -----------------FOOTER-----------------
+// -----------------IMAGE----------------
+#footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#logo-footer {
+    width: 8%;
+    height: auto;
 }
 
