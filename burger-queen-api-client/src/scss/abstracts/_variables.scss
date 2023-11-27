@@ -78,6 +78,34 @@ input {
 }
 
 
+//----------------------
+.card {
+    border-color: #000000;
+}
+
+.card-body {
+    background-color: #FFF0FF;
+}
+
+.card-text {
+    font-family: var(--font-poppins);
+    color: #000000;
+}
+
+#cards {
+    margin: 2%;
+}
+
+#lunch-card {
+    background-color: #B57EDC;
+}
+
+#log-out {
+    width: 100%;
+    margin: 0% -3%;
+}
+
+
 // -----------------FOOTER-----------------
 p {
     font-family: var(--font-dancing);
